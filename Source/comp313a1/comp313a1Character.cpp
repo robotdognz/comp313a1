@@ -1,13 +1,13 @@
 // Copyright Epic Games, Inc. All Rights Reserved.
 
-#include "comp313a1fuckCharacter.h"
+#include "comp313a1Character.h"
 #include "Camera/CameraComponent.h"
 #include "Components/CapsuleComponent.h"
 #include "Components/InputComponent.h"
 #include "GameFramework/SpringArmComponent.h"
 #include "GameFramework/CharacterMovementComponent.h"
 
-Acomp313a1fuckCharacter::Acomp313a1fuckCharacter()
+Acomp313a1Character::Acomp313a1Character()
 {
 	// Set size for collision capsule
 	GetCapsuleComponent()->InitCapsuleSize(42.f, 96.0f);
@@ -48,30 +48,30 @@ Acomp313a1fuckCharacter::Acomp313a1fuckCharacter()
 //////////////////////////////////////////////////////////////////////////
 // Input
 
-void Acomp313a1fuckCharacter::SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent)
+void Acomp313a1Character::SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent)
 {
 	// set up gameplay key bindings
 	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &ACharacter::Jump);
 	PlayerInputComponent->BindAction("Jump", IE_Released, this, &ACharacter::StopJumping);
-	PlayerInputComponent->BindAxis("MoveRight", this, &Acomp313a1fuckCharacter::MoveRight);
+	PlayerInputComponent->BindAxis("MoveRight", this, &Acomp313a1Character::MoveRight);
 
-	PlayerInputComponent->BindTouch(IE_Pressed, this, &Acomp313a1fuckCharacter::TouchStarted);
-	PlayerInputComponent->BindTouch(IE_Released, this, &Acomp313a1fuckCharacter::TouchStopped);
+	PlayerInputComponent->BindTouch(IE_Pressed, this, &Acomp313a1Character::TouchStarted);
+	PlayerInputComponent->BindTouch(IE_Released, this, &Acomp313a1Character::TouchStopped);
 }
 
-void Acomp313a1fuckCharacter::MoveRight(float Value)
+void Acomp313a1Character::MoveRight(float Value)
 {
 	// add movement in that direction
 	AddMovementInput(FVector(0.f,-1.f,0.f), Value);
 }
 
-void Acomp313a1fuckCharacter::TouchStarted(const ETouchIndex::Type FingerIndex, const FVector Location)
+void Acomp313a1Character::TouchStarted(const ETouchIndex::Type FingerIndex, const FVector Location)
 {
 	// jump on any touch
 	Jump();
 }
 
-void Acomp313a1fuckCharacter::TouchStopped(const ETouchIndex::Type FingerIndex, const FVector Location)
+void Acomp313a1Character::TouchStopped(const ETouchIndex::Type FingerIndex, const FVector Location)
 {
 	StopJumping();
 }

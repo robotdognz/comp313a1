@@ -4,10 +4,10 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
-#include "comp313a1fuckCharacter.generated.h"
+#include "comp313a1Character.generated.h"
 
 UCLASS(config=Game)
-class Acomp313a1fuckCharacter : public ACharacter
+class Acomp313a1Character : public ACharacter
 {
 	GENERATED_BODY()
 
@@ -36,7 +36,7 @@ protected:
 
 
 public:
-	Acomp313a1fuckCharacter();
+	Acomp313a1Character();
 
 	/** Returns SideViewCameraComponent subobject **/
 	FORCEINLINE class UCameraComponent* GetSideViewCameraComponent() const { return SideViewCameraComponent; }

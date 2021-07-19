@@ -3,12 +3,12 @@
 using UnrealBuildTool;
 using System.Collections.Generic;
 
-public class comp313a1fuckEditorTarget : TargetRules
+public class comp313a1EditorTarget : TargetRules
 {
-	public comp313a1fuckEditorTarget(TargetInfo Target) : base(Target)
+	public comp313a1EditorTarget(TargetInfo Target) : base(Target)
 	{
 		Type = TargetType.Editor;
 		DefaultBuildSettings = BuildSettingsVersion.V2;
-		ExtraModuleNames.Add("comp313a1fuck");
+		ExtraModuleNames.Add("comp313a1");
 	}
 }
