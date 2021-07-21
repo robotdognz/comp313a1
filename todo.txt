@@ -1,8 +1,9 @@
 TODO
 
-    Control a character on screen
-    Have a character interact with objects in the world 	[floating coins]
-    Animate the character based on movement
+Control a character on screen
+Have a character interact with objects in the world 	[floating coins]
+Animate the character based on movement
+
     Change score on screen					[collecting coins]
     Manage assets and how they are created and removed
     Move NPCs around						[some kind of moving enemy]
