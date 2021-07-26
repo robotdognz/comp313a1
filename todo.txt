@@ -13,7 +13,7 @@ Manage assets and how they are created and removed
 Play sounds
 Restart a level						[player death]
     Show a final screen
-    Create a settings menu with at least a slider and a toggle interaction
+Create a settings menu with at least a slider and a toggle interaction
 
 
     Create at least one blueprint node in C++
