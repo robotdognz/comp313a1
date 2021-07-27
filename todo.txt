@@ -18,3 +18,7 @@ Create a settings menu with at least a slider and a toggle interaction
 
     Create at least one blueprint node in C++
     Make a video showing off the project 
+
+    Update github readme file
+    Clean up blueprints
+    Figure out what to do about the missing player assets in the git 
