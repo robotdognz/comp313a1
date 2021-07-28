@@ -1,25 +1,24 @@
-TODO
+Done
 
 Control a character on screen
 Have a character interact with objects in the world 	[floating coins]
 Animate the character based on movement
-
 Change score on screen					[collecting coins]
 Manage assets and how they are created and removed
-    Move NPCs around						[some kind of moving enemy]
-
-
-
+Move NPCs around					[some kind of moving enemy]
 Play sounds
-Restart a level						[player death]
-    Show a final screen
+Restart a level						[player death]   
 Create a settings menu with at least a slider and a toggle interaction
 
+TODO
 
-    Create at least one blueprint node in C++
-    Make a video showing off the project 
+End game after getting all collectables / Show a final screen
+Make level
+Create at least one blueprint node in C++ 
 
-    Update github readme file
-    Clean up blueprints
-    Figure out what to do about the missing player assets in the git 
-    Make changes to the player movement to prove I can do that (aka jump height?)
+Update github readme file
+Clean up blueprints
+Figure out what to do about the missing player assets in the git 
+Make changes to the player movement to prove I can do that (aka jump height?)
+
+Make a video showing off the project 
