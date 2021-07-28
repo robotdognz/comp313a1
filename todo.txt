@@ -12,13 +12,17 @@ Create a settings menu with at least a slider and a toggle interaction
 End game after getting all collectables / Show a final screen
 Create at least one blueprint node in C++
 Clean up blueprints
+Update github readme file
 
 TODO
 
 Make level
-Update github readme file
+
 Figure out what to do about the missing player assets in the git 
-Make a video showing off the project 
+Make a video showing off the project (4-9 mins)
+Add link to video to github readme
+
+Set weighting
 
 
 Make changes to the player movement to prove I can do that (aka jump height?)
