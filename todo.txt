@@ -9,6 +9,7 @@ Move NPCs around					[some kind of moving enemy]
 Play sounds
 Restart a level						[player death]   
 Create a settings menu with at least a slider and a toggle interaction
+Clean up blueprints
 
 TODO
 
@@ -17,7 +18,6 @@ Make level
 Create at least one blueprint node in C++ 
 
 Update github readme file
-Clean up blueprints
 Figure out what to do about the missing player assets in the git 
 Make changes to the player movement to prove I can do that (aka jump height?)
 
