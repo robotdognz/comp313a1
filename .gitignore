@@ -77,4 +77,4 @@ DerivedDataCache/*
 Content/StarterContent/*
 
 # Temp: remove big files
-Content/Mannequin/Character/Textures/*
+# Content/Mannequin/Character/Textures/*

@@ -13,14 +13,15 @@ End game after getting all collectables / Show a final screen
 Create at least one blueprint node in C++
 Clean up blueprints
 Update github readme file
+Make level
 
 TODO
-
-Make level
 
 Figure out what to do about the missing player assets in the git 
 Make a video showing off the project (4-9 mins)
 Add link to video to github readme
+
+Write documentation
 
 Set weighting
 
