@@ -16,11 +16,10 @@ Update github readme file
 Make level
 Figure out what to do about the missing player assets in the git 
 Write documentation
+Make a video showing off the project (4-9 mins)
+Set weighting
+Add link to video to github readme
 
 TODO
 
 
-Make a video showing off the project (4-9 mins)
-Add link to video to github readme
-
-Set weighting
