@@ -75,3 +75,6 @@ DerivedDataCache/*
 
 # Remove the starter content
 Content/StarterContent/*
+
+# Remove my notes and tutorials
+Notes/*
